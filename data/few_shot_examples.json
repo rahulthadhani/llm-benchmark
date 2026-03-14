@@ -1,0 +1,42 @@
+{
+  "reasoning": [
+    {
+      "prompt": "If X > Y and Y > Z, is X > Z?",
+      "answer": "Yes, by transitivity X is greater than Z."
+    },
+    {
+      "prompt": "All dogs are animals. Rex is a dog. Is Rex an animal?",
+      "answer": "Yes, since Rex is a dog and all dogs are animals, Rex is an animal."
+    }
+  ],
+  "coding": [
+    {
+      "prompt": "Write a Python function to add two numbers.",
+      "answer": "def add(a, b):\n    return a + b"
+    },
+    {
+      "prompt": "Write a Python function to find the maximum of a list.",
+      "answer": "def find_max(lst):\n    return max(lst)"
+    }
+  ],
+  "factual": [
+    {
+      "prompt": "What is the capital of France?",
+      "answer": "Paris"
+    },
+    {
+      "prompt": "How many days are in a leap year?",
+      "answer": "366"
+    }
+  ],
+  "ambiguous": [
+    {
+      "prompt": "Is a tomato a fruit or a vegetable?",
+      "answer": "Botanically it is a fruit, but culinarily it is treated as a vegetable — it depends on the definition you use."
+    },
+    {
+      "prompt": "Is water wet?",
+      "answer": "It depends on the definition. Water itself is a liquid that causes the sensation of wetness, but whether water itself is wet is a matter of how you define the term."
+    }
+  ]
+}

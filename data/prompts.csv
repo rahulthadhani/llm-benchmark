@@ -1,0 +1,21 @@
+id,category,prompt,correct_answer,eval_type
+1,reasoning,"If A > B and B > C, is A > C?",Yes,exact
+2,reasoning,"A bat and ball cost $1.10. The bat costs $1 more than the ball. How much does the ball cost?",5 cents,exact
+3,reasoning,"All roses are flowers. Some flowers fade quickly. Can we conclude all roses fade quickly?",No,exact
+4,reasoning,"If it rains the ground gets wet. The ground is wet. Did it rain?",Not necessarily,exact
+5,reasoning,"John is taller than Mary. Mary is taller than Sue. Who is shortest?",Sue,exact
+6,coding,"Write a Python function to reverse a string.",def,code_check
+7,coding,"Write a Python function to check if a number is prime.",def,code_check
+8,coding,"Write a Python function to return the nth Fibonacci number.",def,code_check
+9,coding,"Write a Python function to count vowels in a string.",def,code_check
+10,coding,"Write a Python function to flatten a nested list.",def,code_check
+11,factual,"What is the capital of Japan?",Tokyo,exact
+12,factual,"What planet is closest to the sun?",Mercury,exact
+13,factual,"How many sides does a hexagon have?",6,exact
+14,factual,"What is the chemical symbol for water?",H2O,exact
+15,factual,"Who wrote Romeo and Juliet?",Shakespeare,exact
+16,ambiguous,"Is a hotdog a sandwich?","",open
+17,ambiguous,"Is cereal a soup?","",open
+18,ambiguous,"If you replace every part of a ship over time is it still the same ship?","",open
+19,ambiguous,"Is a staircase a ramp?","",open
+20,ambiguous,"Can something be both true and false at the same time?","",open
