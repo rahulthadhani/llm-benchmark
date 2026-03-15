@@ -30,8 +30,7 @@ def call_llm(prompt_text: str) -> str:
 
 def run_benchmark():
     # Load dataset and few-shot examples
-    #df = pd.read_csv("data/prompts.csv")
-    df = pd.read_csv("data/prompts.csv").head(3)
+    df = pd.read_csv("data/prompts.csv")
     with open("data/few_shot_examples.json", "r") as f:
         examples = json.load(f)
 

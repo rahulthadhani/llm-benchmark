@@ -19,3 +19,183 @@ id,category,prompt,correct_answer,eval_type
 18,ambiguous,"If you replace every part of a ship over time is it still the same ship?","",open
 19,ambiguous,"Is a staircase a ramp?","",open
 20,ambiguous,"Can something be both true and false at the same time?","",open
+21,reasoning,"If all cats are mammals and all mammals are animals, are all cats animals?",Yes,exact
+22,reasoning,"Tom is older than Sam. Sam is older than Bill. Who is youngest?",Bill,exact
+23,reasoning,"A is to the left of B. B is to the left of C. Is A to the left of C?",Yes,exact
+24,reasoning,"If today is Monday what day will it be in 3 days?",Thursday,exact
+25,reasoning,"All squares are rectangles. Is every rectangle a square?",No,exact
+26,reasoning,"If it takes 5 machines 5 minutes to make 5 widgets how long does it take 100 machines to make 100 widgets?",5 minutes,exact
+27,reasoning,"Mary has 3 brothers. Each brother has 2 sisters. How many sisters does Mary have?",2,exact
+28,reasoning,"A farmer has 17 sheep. All but 9 run away. How many are left?",9,exact
+29,reasoning,"If you overtake the person in second place what place are you in?",Second,exact
+30,reasoning,"Some musicians are teachers. All teachers are educated. Are some musicians educated?",Yes,exact
+31,reasoning,"If no fish are dogs and all dogs are animals are some animals not fish?",Yes,exact
+32,reasoning,"A rooster lays an egg on a roof. Which way does it roll?",Roosters do not lay eggs,exact
+33,reasoning,"How many birthdays does the average person have?",One,exact
+34,reasoning,"If you have a 10 liter jug and a 6 liter jug how do you measure exactly 4 liters?",Fill 6L pour into 10L fill 6L again pour into 10L until full leaving 2L then empty 10L pour 2L in fill 6L pour into 10L equals 8L no fill 6L pour into 10L 4L remains,exact
+35,reasoning,"Two fathers and two sons go fishing and each catches one fish. They bring home 3 fish. How?",They are grandfather father and son,exact
+36,reasoning,"If you have a match and enter a room with a candle a lamp and a fireplace what do you light first?",The match,exact
+37,reasoning,"All A are B. All B are C. Are all A also C?",Yes,exact
+38,reasoning,"Is it legal for a man to marry his widows sister?",No the man is dead,exact
+39,reasoning,"Some cats are black. Felix is a cat. Is Felix black?",Not necessarily,exact
+40,reasoning,"If there are 3 apples and you take away 2 how many apples do you have?",2,exact
+41,reasoning,"A plane crashes on the border of the US and Canada. Where do they bury the survivors?",You do not bury survivors,exact
+42,reasoning,"All birds have wings. Penguins are birds. Do penguins have wings?",Yes,exact
+43,reasoning,"If 1 equals 5 and 2 equals 10 and 3 equals 15 what does 5 equal?",1,exact
+44,reasoning,"There are 6 eggs. You break 2 fry 2 and eat 2. How many are left?",6,exact
+45,reasoning,"If a doctor gives you 3 pills and tells you to take one every half hour how long will they last?",1 hour,exact
+46,reasoning,"All humans are mortal. Socrates is human. Is Socrates mortal?",Yes,exact
+47,reasoning,"No reptiles are warm blooded. All snakes are reptiles. Are snakes warm blooded?",No,exact
+48,reasoning,"If it takes 2 hours to dry 1 shirt how long to dry 10 shirts?",2 hours,exact
+49,reasoning,"A is the father of B but B is not the son of A. How?",B is the daughter,exact
+50,reasoning,"Some birds can fly. All penguins are birds. Can all penguins fly?",No,exact
+51,coding,"Write a Python function to find the minimum value in a list.",def,code_check
+52,coding,"Write a Python function to calculate the factorial of a number.",def,code_check
+53,coding,"Write a Python function to check if a string is a palindrome.",def,code_check
+54,coding,"Write a Python function to remove duplicates from a list.",def,code_check
+55,coding,"Write a Python function to sort a list of strings alphabetically.",def,code_check
+56,coding,"Write a Python function to count the occurrences of each word in a string.",def,code_check
+57,coding,"Write a Python function to convert Celsius to Fahrenheit.",def,code_check
+58,coding,"Write a Python function to find the second largest number in a list.",def,code_check
+59,coding,"Write a Python function to merge two sorted lists.",def,code_check
+60,coding,"Write a Python function to check if a number is even or odd.",def,code_check
+61,coding,"Write a Python function to calculate the sum of digits of a number.",def,code_check
+62,coding,"Write a Python function to find all prime numbers up to n.",def,code_check
+63,coding,"Write a Python function to rotate a list by k positions.",def,code_check
+64,coding,"Write a Python function to find the intersection of two lists.",def,code_check
+65,coding,"Write a Python function to count uppercase and lowercase letters in a string.",def,code_check
+66,coding,"Write a Python function to implement binary search.",def,code_check
+67,coding,"Write a Python function to find the longest word in a sentence.",def,code_check
+68,coding,"Write a Python function to generate a list of squares up to n.",def,code_check
+69,coding,"Write a Python function to check if two strings are anagrams.",def,code_check
+70,coding,"Write a Python function to calculate the power of a number without using **.",def,code_check
+71,coding,"Write a Python function to find the GCD of two numbers.",def,code_check
+72,coding,"Write a Python function to flatten a list of lists.",def,code_check
+73,coding,"Write a Python function to check if a list is sorted.",def,code_check
+74,coding,"Write a Python function to remove all whitespace from a string.",def,code_check
+75,coding,"Write a Python function to find the most frequent element in a list.",def,code_check
+76,coding,"Write a Python function to implement a stack using a list.",def,code_check
+77,coding,"Write a Python function to calculate the average of a list.",def,code_check
+78,coding,"Write a Python function to convert a string to title case.",def,code_check
+79,coding,"Write a Python function to check if a year is a leap year.",def,code_check
+80,coding,"Write a Python function to find all pairs in a list that sum to a target.",def,code_check
+81,coding,"Write a Python function to implement bubble sort.",def,code_check
+82,coding,"Write a Python function to count consonants in a string.",def,code_check
+83,coding,"Write a Python function to truncate a string to n characters.",def,code_check
+84,coding,"Write a Python function to find the index of an element in a list.",def,code_check
+85,coding,"Write a Python function to calculate the LCM of two numbers.",def,code_check
+86,coding,"Write a Python function to check if all elements in a list are unique.",def,code_check
+87,coding,"Write a Python function to reverse the words in a sentence.",def,code_check
+88,coding,"Write a Python function to find the sum of all even numbers up to n.",def,code_check
+89,coding,"Write a Python function to zip two lists into a dictionary.",def,code_check
+90,coding,"Write a Python function to check if a string contains only digits.",def,code_check
+91,coding,"Write a Python function to find the median of a list.",def,code_check
+92,coding,"Write a Python function to remove vowels from a string.",def,code_check
+93,coding,"Write a Python function to count the number of words in a string.",def,code_check
+94,coding,"Write a Python function to implement selection sort.",def,code_check
+95,coding,"Write a Python function to generate all permutations of a list.",def,code_check
+96,coding,"Write a Python function to check if a number is a perfect square.",def,code_check
+97,coding,"Write a Python function to find the difference between two lists.",def,code_check
+98,coding,"Write a Python function to capitalize the first letter of each word.",def,code_check
+99,coding,"Write a Python function to find the longest common prefix in a list of strings.",def,code_check
+100,coding,"Write a Python function to implement a simple calculator with add subtract multiply divide.",def,code_check
+101,factual,"What is the largest planet in our solar system?",Jupiter,exact
+102,factual,"How many continents are there on Earth?",7,exact
+103,factual,"What is the speed of light in a vacuum?",299792458 meters per second,exact
+104,factual,"Who painted the Mona Lisa?",Leonardo da Vinci,exact
+105,factual,"What is the chemical symbol for gold?",Au,exact
+106,factual,"How many bones are in the adult human body?",206,exact
+107,factual,"What is the tallest mountain in the world?",Mount Everest,exact
+108,factual,"What year did World War II end?",1945,exact
+109,factual,"What is the smallest country in the world?",Vatican City,exact
+110,factual,"How many elements are in the periodic table?",118,exact
+111,factual,"What is the capital of Australia?",Canberra,exact
+112,factual,"Who invented the telephone?",Alexander Graham Bell,exact
+113,factual,"What is the largest ocean on Earth?",Pacific Ocean,exact
+114,factual,"How many strings does a standard guitar have?",6,exact
+115,factual,"What is the hardest natural substance on Earth?",Diamond,exact
+116,factual,"Who wrote the theory of relativity?",Albert Einstein,exact
+117,factual,"What is the boiling point of water in Celsius?",100,exact
+118,factual,"How many chambers does a human heart have?",4,exact
+119,factual,"What is the national language of Brazil?",Portuguese,exact
+120,factual,"What planet is known as the red planet?",Mars,exact
+121,factual,"How many days are in a leap year?",366,exact
+122,factual,"What is the largest mammal on Earth?",Blue whale,exact
+123,factual,"Who was the first person to walk on the moon?",Neil Armstrong,exact
+124,factual,"What is the currency of Japan?",Yen,exact
+125,factual,"How many teeth does an adult human have?",32,exact
+126,factual,"What is the smallest planet in our solar system?",Mercury,exact
+127,factual,"Who invented the light bulb?",Thomas Edison,exact
+128,factual,"What is the longest river in the world?",Nile,exact
+129,factual,"How many hours are in a week?",168,exact
+130,factual,"What gas do plants absorb during photosynthesis?",Carbon dioxide,exact
+131,factual,"What is the capital of Canada?",Ottawa,exact
+132,factual,"How many sides does an octagon have?",8,exact
+133,factual,"What is the atomic number of carbon?",6,exact
+134,factual,"Who wrote the Harry Potter series?",J.K. Rowling,exact
+135,factual,"What is the largest continent?",Asia,exact
+136,factual,"How many seconds are in an hour?",3600,exact
+137,factual,"What is the chemical symbol for iron?",Fe,exact
+138,factual,"What year was the internet invented?",1983,exact
+139,factual,"How many planets are in our solar system?",8,exact
+140,factual,"What is the capital of Germany?",Berlin,exact
+141,factual,"Who discovered penicillin?",Alexander Fleming,exact
+142,factual,"What is the most spoken language in the world?",Mandarin Chinese,exact
+143,factual,"How many colors are in a rainbow?",7,exact
+144,factual,"What is the largest desert in the world?",Sahara,exact
+145,factual,"Who invented the airplane?",Wright Brothers,exact
+146,factual,"What is the capital of Russia?",Moscow,exact
+147,factual,"How many valence electrons does oxygen have?",6,exact
+148,factual,"What is the longest bone in the human body?",Femur,exact
+149,factual,"What year did the Berlin Wall fall?",1989,exact
+150,factual,"What is the square root of 144?",12,exact
+151,ambiguous,"Is a tomato a fruit or a vegetable?","",open
+152,ambiguous,"Should you prioritize happiness or success?","",open
+153,ambiguous,"Is social media more harmful than beneficial?","",open
+154,ambiguous,"Is it ethical to eat meat?","",open
+155,ambiguous,"Does free will exist?","",open
+156,ambiguous,"Is mathematics discovered or invented?","",open
+157,ambiguous,"Is a glass half empty or half full?","",open
+158,ambiguous,"Should art be judged by its process or its result?","",open
+159,ambiguous,"Is it better to be honest or kind when the two conflict?","",open
+160,ambiguous,"Does the ends justify the means?","",open
+161,ambiguous,"Is beauty objective or subjective?","",open
+162,ambiguous,"Should privacy or security take priority?","",open
+163,ambiguous,"Is technology making us more or less connected?","",open
+164,ambiguous,"Is it possible to be truly unbiased?","",open
+165,ambiguous,"Is silence a form of communication?","",open
+166,ambiguous,"Should historical statues of controversial figures be removed?","",open
+167,ambiguous,"Is intelligence nature or nurture?","",open
+168,ambiguous,"Can a copy of something be as valuable as the original?","",open
+169,ambiguous,"Is it ever justified to break the law?","",open
+170,ambiguous,"Does a word's meaning come from its origin or its current usage?","",open
+171,ambiguous,"Is the internet a public utility or a private service?","",open
+172,ambiguous,"Should people be judged by their intentions or their actions?","",open
+173,ambiguous,"Is time travel theoretically possible?","",open
+174,ambiguous,"Can machines truly be creative?","",open
+175,ambiguous,"Is it ethical to keep animals in zoos?","",open
+176,ambiguous,"Should voting be mandatory?","",open
+177,ambiguous,"Is a life lived in comfort more valuable than one of struggle?","",open
+178,ambiguous,"Does consciousness exist outside the brain?","",open
+179,ambiguous,"Is graffiti art or vandalism?","",open
+180,ambiguous,"Should the government regulate social media?","",open
+181,ambiguous,"Can something be morally wrong but legally right?","",open
+182,ambiguous,"Is the concept of race biological or social?","",open
+183,ambiguous,"Should children be raised with religion?","",open
+184,ambiguous,"Is it possible to be objective when writing history?","",open
+185,ambiguous,"Does money buy happiness?","",open
+186,ambiguous,"Is civil disobedience ever justified?","",open
+187,ambiguous,"Should all education be free?","",open
+188,ambiguous,"Is human nature fundamentally good or evil?","",open
+189,ambiguous,"Can violence ever be the answer?","",open
+190,ambiguous,"Is the death penalty ethical?","",open
+191,ambiguous,"Should wealthy nations have open borders?","",open
+192,ambiguous,"Is it ethical to use animals for medical research?","",open
+193,ambiguous,"Does language shape thought or does thought shape language?","",open
+194,ambiguous,"Should children have unrestricted access to the internet?","",open
+195,ambiguous,"Is patriotism a virtue or a bias?","",open
+196,ambiguous,"Can artificial intelligence ever be conscious?","",open
+197,ambiguous,"Is it better to live in a city or the countryside?","",open
+198,ambiguous,"Should athletes be considered role models?","",open
+199,ambiguous,"Is it ethical to clone humans?","",open
+200,ambiguous,"Does objective morality exist?","",open
