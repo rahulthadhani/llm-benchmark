@@ -159,18 +159,3 @@ python -m evaluation.score\_results
 python analysis.py
 
 ```
-
-
-
-\## Resume line
-
-
-
-Built a benchmark suite evaluating prompt strategies across 200 reasoning, 
-
-coding, factual, and ambiguous tasks — measuring accuracy differences between 
-
-zero-shot, few-shot, chain-of-thought, and role prompting using the OpenAI API, 
-
-Pandas, and Matplotlib.
-
